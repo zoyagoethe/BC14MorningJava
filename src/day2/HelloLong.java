@@ -1,3 +1,5 @@
+package day2;
+
 public class HelloLong {
     public static void main(String[] args) {
         long l1 = 7890890890890l; // что так делать нельзя

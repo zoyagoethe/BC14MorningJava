@@ -1,3 +1,5 @@
+package day2;
+
 public class HelloInt {
     public static void main(String[] args) {
         // Definition, declaration, initialization

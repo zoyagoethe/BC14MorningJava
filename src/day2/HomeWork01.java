@@ -1,3 +1,5 @@
+package day2;
+
 public class HomeWork01 {
     public static void main(String[] args) {
         // найти площадь и периметр квадрата
