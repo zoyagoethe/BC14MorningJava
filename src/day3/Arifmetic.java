@@ -1,4 +1,4 @@
-package day_3;
+package day3;
 
 public class Arifmetic {
     public static void main(String[] args) {
