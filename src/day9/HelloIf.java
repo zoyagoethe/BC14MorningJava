@@ -9,6 +9,9 @@ public class HelloIf {
     }
 
     private static void ifIntroductionFor() {
+        if(true){
+            System.out.println("тогда всё хорошо");
+        }
 
     }
 
