@@ -2,24 +2,42 @@ package test1.test2;
 
 public class Main {
     public static void main(String[] args) {
-        int razmer = 6;
-        triangel(razmer);
+        triangle(10);
+        triangleIsosceles(10);
+        triangleInverted(10);
     }
 
-    private static void triangel(int inputRazmer) {
-        String rez = "";
-        String str = "                                         ";
-        int kolSymbol = 1;
-        for (int i = 1; i <= inputRazmer; i++) {
-            String inputStr = str.substring(str.length() - (inputRazmer - i));
-            for (int j = 1; j <= kolSymbol; j++) {
-                inputStr += i;
-                //System.out.println("str "+inputStr);
-                rez = inputStr;
+    private static void triangleInverted(int lines) {
+        for (int line = lines; line >= 1; line--) {
+
+            for (int star = line; star >= 1; star--) {
+                System.out.print("*");
 
             }
-            kolSymbol += 2;
-            System.out.println(rez);
+            System.out.println();
+        }
+    }
+
+    private static void triangleIsosceles(int lines) {
+        for (int line = 1; line <= lines; line++) {
+
+            for (int space = 0; space < lines - line; space++) {
+                System.out.print(" ");
+            }
+            for (int star = lines -line; star < lines; star++) {
+                System.out.print("**");
+            }
+            System.out.println();
+        }
+    }
+
+
+    private static void triangle(int lines) {
+        String star = "*";
+        String line = "";
+        for (int i = 0; i < lines; i++) {
+            line = line + star;
+            System.out.println(line);
         }
     }
 }
