@@ -7,7 +7,24 @@ public class ReviewCasting {
         //stringToChar();
         //stringToInt();
         //intToString();
-        charToString();
+        //charToString();
+        magicChar();
+    }
+
+    private static void magicChar() {
+        char c1 = 'я';
+        System.out.println(c1); // я
+        System.out.println(c1 + ""); // я
+        System.out.println("" + c1);  // я
+        System.out.println(c1 + c1 + ""); // яя  сложение
+        System.out.println(c1 + 10); // 1103 + 10
+        System.out.println(c1 + "" + c1); //яя
+        System.out.println("" + c1 + c1); // яя  сложение
+        System.out.println('я' + 'я');
+        System.out.println("я" + "я");
+        System.out.println("" + c1 * c1);
+        String temp = "" + c1 * c1;
+        System.out.println(c1 + 0);
     }
 
     private static void charToString() {
