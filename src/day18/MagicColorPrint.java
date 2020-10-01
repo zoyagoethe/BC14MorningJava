@@ -1,4 +1,4 @@
-package test1.test2;
+package day18;
 
 public class MagicColorPrint {
     public static void main(String[] args) {
