@@ -2,10 +2,7 @@ package day23;
 
 public class Converter {
     public static int convertBinaryToDecimal(String binaryNumber) {
-        // %10
-        // Math.pow() 2
-        // /10
-        // while
+            // 10011001
         int decimalResult = 0;
         int power = 0;
         int binary = Integer.parseInt(binaryNumber); //10010001
