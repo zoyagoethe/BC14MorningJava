@@ -17,5 +17,6 @@ public class StartApplication {
                         + myBinaryNumber);
         split();
         System.out.println(Converter.convertDecimalToBinary(78));
+        System.out.println(Converter.convertBinaryToDecimal("11111111"));
     }
 }
