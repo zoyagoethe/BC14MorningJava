@@ -1,4 +1,4 @@
-package day26_homework;
+package day27.day26_homework;
 
 import static day06.Classwork2.split;
 

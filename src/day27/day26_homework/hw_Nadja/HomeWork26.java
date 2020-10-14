@@ -1,4 +1,4 @@
-package day26.hw_Nadja;
+package day27.day26_homework.hw_Nadja;
 
 public class HomeWork26 {
     public static void main(String[] args) {

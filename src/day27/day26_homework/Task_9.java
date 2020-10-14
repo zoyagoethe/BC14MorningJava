@@ -1,4 +1,4 @@
-package day26_homework;
+package day27.day26_homework;
 
 public class Task_9 {
     public static void main(String[] args) {
@@ -9,7 +9,6 @@ public class Task_9 {
     }
 
     private static boolean endOther(String str1, String str2) {
-        return str2.toLowerCase().endsWith(str1.toLowerCase())
-                || str1.toLowerCase().endsWith(str2.toLowerCase());
+        return str2.toLowerCase().endsWith(str1.toLowerCase()) || str1.toLowerCase().endsWith(str2.toLowerCase());
     }
 }
