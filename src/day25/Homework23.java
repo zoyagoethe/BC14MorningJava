@@ -18,7 +18,7 @@ public class HomeWork23 {
         indexStart = str.indexOf(bread);
         // System.out.println("indexStart= "+str.indexOf(bread));
         int indexEnd = str.lastIndexOf(bread);
-        //System.out.println("indexend= "+indexEnd);пше ыефегы
+        //System.out.println("indexend= "+indexEnd);
 
         if (indexEnd != indexStart) {
             output = str.substring(indexStart + bread.length(), indexEnd);
