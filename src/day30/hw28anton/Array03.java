@@ -1,4 +1,4 @@
-package day28.hw28anton;
+package day30.hw28anton;
 
 public class Array03 {
     /* Consider the leftmost and righmost appearances

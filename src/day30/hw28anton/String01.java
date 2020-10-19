@@ -1,4 +1,4 @@
-package day28.hw28anton;
+package day30.hw28anton;
 
 public class String01 {
     public static void main(String[] args) {
